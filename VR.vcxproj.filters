@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{55337d57-d396-4f10-b6c5-0c4c50df8e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{b1a3f1b1-b554-413a-95cf-e071a3109982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderObjects">
+      <UniqueIdentifier>{091e5a4f-f122-4d3a-a6bb-324f422e1c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderObjects">
+      <UniqueIdentifier>{a035c281-88d1-457f-8703-21c2289e3479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{577f3344-2aca-471a-9bdc-7b00f48836c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{7b01a61b-8ff3-4471-88c5-470703f61e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\Diffuse">
+      <UniqueIdentifier>{b060ff07-e954-4600-882c-f903177f1ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\Specular">
+      <UniqueIdentifier>{580bd045-120e-42e9-8916-4dfa2cb89482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{15623850-1a9e-40ba-9dd8-a71727211535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Fragment">
+      <UniqueIdentifier>{e3ccb497-54e7-470a-a422-da463e435b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Vertex">
+      <UniqueIdentifier>{5664652c-ca23-45b1-bf12-54ba602c901e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\SkyBox">
+      <UniqueIdentifier>{b81cfcf6-9522-42ce-b25e-67fce25916c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\SkyBox\lake">
+      <UniqueIdentifier>{14632ef9-e5cb-462f-aab5-14cec6e0ba67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\SkyBox\night">
+      <UniqueIdentifier>{905ecc88-a0e6-4a15-b4b0-97b7e464d184}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VBO.cpp">
+      <Filter>Source Files\ShaderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VAO.cpp">
+      <Filter>Source Files\ShaderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EBO.cpp">
+      <Filter>Source Files\ShaderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postProcess.cpp">
+      <Filter>Source Files\ShaderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skyBox.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\diffuse\bidoof.jpg">
+      <Filter>Resource Files\Textures\Diffuse</Filter>
+    </Image>
+    <Image Include="textures\diffuse\grass.jpg">
+      <Filter>Resource Files\Textures\Diffuse</Filter>
+    </Image>
+    <Image Include="textures\diffuse\o.jpg">
+      <Filter>Resource Files\Textures\Diffuse</Filter>
+    </Image>
+    <Image Include="textures\specular\spec_grass.jpg">
+      <Filter>Resource Files\Textures\Specular</Filter>
+    </Image>
+    <Image Include="textures\skybox\lake\back.jpg">
+      <Filter>Resource Files\Textures\SkyBox\lake</Filter>
+    </Image>
+    <Image Include="textures\skybox\lake\bottom.jpg">
+      <Filter>Resource Files\Textures\SkyBox\lake</Filter>
+    </Image>
+    <Image Include="textures\skybox\lake\front.jpg">
+      <Filter>Resource Files\Textures\SkyBox\lake</Filter>
+    </Image>
+    <Image Include="textures\skybox\lake\left.jpg">
+      <Filter>Resource Files\Textures\SkyBox\lake</Filter>
+    </Image>
+    <Image Include="textures\skybox\lake\right.jpg">
+      <Filter>Resource Files\Textures\SkyBox\lake</Filter>
+    </Image>
+    <Image Include="textures\skybox\lake\top.jpg">
+      <Filter>Resource Files\Textures\SkyBox\lake</Filter>
+    </Image>
+    <Image Include="textures\skybox\night\back.jpg">
+      <Filter>Resource Files\Textures\SkyBox\night</Filter>
+    </Image>
+    <Image Include="textures\skybox\night\bottom.jpg">
+      <Filter>Resource Files\Textures\SkyBox\night</Filter>
+    </Image>
+    <Image Include="textures\skybox\night\front.jpg">
+      <Filter>Resource Files\Textures\SkyBox\night</Filter>
+    </Image>
+    <Image Include="textures\skybox\night\left.jpg">
+      <Filter>Resource Files\Textures\SkyBox\night</Filter>
+    </Image>
+    <Image Include="textures\skybox\night\right.jpg">
+      <Filter>Resource Files\Textures\SkyBox\night</Filter>
+    </Image>
+    <Image Include="textures\skybox\night\top.jpg">
+      <Filter>Resource Files\Textures\SkyBox\night</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\headers\scene.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\shader.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\texture.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\camera.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\light.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\mesh.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\EBO.h">
+      <Filter>Header Files\ShaderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\VAO.h">
+      <Filter>Header Files\ShaderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\VBO.h">
+      <Filter>Header Files\ShaderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\postProcess.h">
+      <Filter>Header Files\ShaderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\dFloat.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\headers\skyBox.h">
+      <Filter>Header Files\ShaderObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\framebuffer.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="shaders\light.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="shaders\world.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+    <None Include="shaders\framebuffer.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="shaders\light.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="shaders\world.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="shaders\sky.fs">
+      <Filter>Resource Files\Shaders\Fragment</Filter>
+    </None>
+    <None Include="shaders\sky.vs">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </None>
+  </ItemGroup>
+</Project>
